@@ -9,7 +9,7 @@ contract TestDex is Test {
     IDex d;
     function setUp() public {}
 
-    function testShop() public{
+    function testDex() public{
         
         vm.startPrank(0x9bdcf9696e273aFd83992b1Fb5672A70532ca9E1);
         address victim = 0x23bd651A4C98f880F0F6f209B4dAf32b2392ddc9;                
